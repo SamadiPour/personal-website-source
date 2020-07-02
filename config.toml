@@ -96,11 +96,11 @@ disableHugoGeneratorInject = false
   defaultTheme = "dark"
   themeColor = "#252627"
 
-  # Colors for favicons
-  [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
+#   Colors for favicons
+#  [params.favicon.color]
+#    mask = "#252627"
+#    msapplication = "#252627"
+#    theme = "#252627"
 
   [params.logo]
     logoText     = "$ cd /home/"
@@ -128,8 +128,8 @@ disableHugoGeneratorInject = false
     url  = "https://twitter.com/samadipour/"
 
   [[params.social]]
-      name = "email"
-      url  = "mailto:samadipoor2@gmail.com"
+    name = "email"
+    url  = "mailto:samadipoor2@gmail.com"
 
 #  [[params.social]]
 #    name = "stackoverflow"

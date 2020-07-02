@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
-hugo -t hugo-coder
+hugo -t hello-friend-ng
 cd public
 git add .
 msg="rebuilding site $(date)"

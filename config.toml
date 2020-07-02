@@ -1,95 +1,152 @@
-baseurl = "https://samadipour.github.io"
-title = "SamadiPour"
+baseURL = "https://example.com"
+title   = "A.H. SamadiPour"
+languageCode = "en-us"
+theme = "hello-friend-ng"
 
-theme = "hugo-coder"
+# after update
+# _main.scss
+#  &.circle {
+#    border-radius: 50%;
+#    max-width: 32%;
+#    margin: auto;
+#    padding-top: 10px;
+#  }
+# _single.scss
+#  &-content {
+#    margin-top: 30px;
+#    text-align: justify;
+#  }
 
-languagecode = "en"
-defaultcontentlanguage = "en"
 
-paginate = 10
-canonifyurls = true
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
-pygmentsstyle = "dracula"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-disqusShortname = "yourdiscussshortname"
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+#[permalinks]
+#  posts = "/posts/:year/:month/:title/"
 
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 
+[author]
+  name = "SamadiPour"
 
-[params]
-    author = "A.H. SamadiPour"
-    description = "A.H. SamadiPour Personal Website"
-    keywords = "blog,developer,personal,SamadiPour"
-    info = "Mobile Application Developer"
-    avatarurl = "images/profile.jpg"
-    #gravatar = "john.doe@example.com"
-    footercontent = "Enter a text here."
-
-    dateformat = "January 2, 2006"
-
-    hideFooter = true
-    hideCredits = true
-    hideCopyright = true
-    since = 2012
-
-    # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/luizdepra/hugo-coder/tree/"
-
-    rtl = false
-    colorscheme = "dark"
-
-    # Series see also post count
-    maxSeeAlsoItems = 5
-
-    enableTwemoji = true
-    custom_css = []
-    custom_js = []
+[blackfriday]
+  hrefTargetBlank = true
 
 [taxonomies]
+  tag      = "tags"
   category = "categories"
-  series = "series"
-  tag = "tags"
+  series   = "series"
 
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 1
-    url = "https://github.com/samadipour/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 3
-    url = "https://twitter.com/samadipour/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin-in"
-    weight = 2
-    url = "https://www.linkedin.com/in/samadipour/"    
-[[params.social]]
-    name = "Telegram"
-    icon = "fab fa-telegram-plane"
-    weight = 4
-    url = "https://t.me/iAmSamadiPour/"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02"
 
-#[[params.social]]
-#    name = "Virgool"
-#    icon = "fab fa-medium"
-#    weight = 5
-#    url = "https://medium.com/@johndoe"
+  # Metadata mostly used in document's head
+  description = "A.H. SamadiPour Personal Website"
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = "Mobile Application Developer"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = true  # Set "text-align: justify" to .content.
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    logoCursorDisabled = false
+    # logoCursorColor    = "#67a2c9"
+    logoCursorAnimate  = "1.5s"
+
+  [params.portrait]
+    path = "/images/profile.jpg"
+    alt = "Profile Picture"
+
+
+  # Social icons
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/samadipour/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/samadipour/"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/samadipour/"
+
+  [[params.social]]
+      name = "email"
+      url  = "mailto:samadipoor2@gmail.com"
+
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
 
 [languages]
-    [languages.en]
-        languagename = "English"
-        [languages.en.menu]
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 1
-            url = "posts/"
+  [languages.en]
+    subtitle  = ""
+    weight    = 1
+    copyright = ''
 
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 2
-            url = "projects/"
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"

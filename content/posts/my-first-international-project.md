@@ -1,17 +1,13 @@
 +++
 draft = false
-date = 2020-07-02T02:33:34+04:30
+date = "2020-07-02"
 title = "My First International Project"
 description = ""
 slug = "" 
-tags = [
-    "Flutter",
-    "International"
-]
-categories = [
-    "Development",
-]
-externalLink = ""
+tags = ["Flutter", "International"]
+type = ["posts", "post"]
+[ author ]
+  name = "A.H. SamadiPour"
 +++
 
 As an Iranian, I can't work with other countries every day. Some won't accept my nationality! 

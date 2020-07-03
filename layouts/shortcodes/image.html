@@ -1,3 +1,5 @@
 {{ if .Get "src" }}
+<div class="image">
     <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} onclick="window.open(this.src)" />
+</div>
 {{ end }}

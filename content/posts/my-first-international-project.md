@@ -50,4 +50,4 @@ a time tracker in Android Studio which tells me that I spent 47 hours coding for
 ## Demo
 I hope you enjoy it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZWbLiekctSQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube ZWbLiekctSQ >}}

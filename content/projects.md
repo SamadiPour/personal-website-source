@@ -42,7 +42,11 @@ draft: false
 **Time**: Oct, 2019 - Present    
 **Purpose**: Search engine for supermarkets. Ability to Search and find best price for products.      
 **Technologies**:
-- Android Kotlin (MVVM - LiveData - Retrofit - Coroutines)
+- Android Kotlin
+    - MVVM
+    - LiveData
+    - Retrofit
+    - Coroutines
 - Gitlab CI
 - Fastlane
 - Firebase Analytics
@@ -65,7 +69,7 @@ draft: false
 </div> 
 
 **Title**: Mobile Application Developer    
-**Time**: Oct 2019 - Present (11 mos)   
+**Time**: Oct 2019 - Jun 2020 (11 mos)   
 **Purpose**: Search and reserve Hotel, Train, Plane and Tour.    
 **Technologies**:
 - Flutter

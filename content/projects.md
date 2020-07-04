@@ -117,7 +117,7 @@ draft: false
 <div class="cont">
   <div class="gallery">
     <ul id="lightgallery5">
-      {{< list-image "https://raw.githubusercontent.com/SamadiPour/SnakeFX/master/screenshot.png" >}}
+      {{< single-image "https://raw.githubusercontent.com/SamadiPour/SnakeFX/master/screenshot.png" >}}
     </ul>
   </div>
 </div> 

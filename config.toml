@@ -90,7 +90,7 @@ disableHugoGeneratorInject = false
   customJS  = ["/js/lightgallery.min.js","/js/custom.js"]
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = true  # Set "text-align: justify" to .content.
+  justifyContent = true  # Set "text-align: justify" ato .content.
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"

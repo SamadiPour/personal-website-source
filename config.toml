@@ -73,8 +73,8 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   description = "Mobile Application Developer. Love Flutter and Coding."
-  keywords = ""
-  images = [""]
+  keywords = "SamadiPour,blog,developer,personal"
+  images = ["/images/profile.jpg"]
 
   homeSubtitle = "Mobile Application Developer"
 

@@ -72,7 +72,7 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02"
 
   # Metadata mostly used in document's head
-  description = "A.H. SamadiPour Personal Website"
+  description = "Mobile Application Developer. Love Flutter and Coding."
   keywords = ""
   images = [""]
 
@@ -93,7 +93,7 @@ disableHugoGeneratorInject = false
   justifyContent = true  # Set "text-align: justify" ato .content.
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "auto"
   themeColor = "#252627"
 
 #   Colors for favicons

@@ -4,20 +4,16 @@ date = "2020-07-02"
 title = "My First International Project"
 description = ""
 slug = "" 
-tags = ["Flutter", "International"]
-type = ["posts", "post"]
+tags = ["Flutter", "International", "Project"]
 [ author ]
-  name = "A.H. SamadiPour"
+  name = "Amir Hossein SamadiPour"
 +++
-<div class="cont">
-  <div class="gallery">
-    <ul id="lightgallery">
-      {{< list-image "/images/my-first-international-project/screenshot-1.jpg" >}}
-      {{< list-image "/images/my-first-international-project/screenshot-2.jpg" >}}      
-      {{< list-image "/images/my-first-international-project/screenshot-3.jpg" >}}      
-    </ul>
-  </div>
-</div> 
+
+{{< gallery
+    "/images/my-first-international-project/screenshot-1.jpg"
+    "/images/my-first-international-project/screenshot-2.jpg"
+    "/images/my-first-international-project/screenshot-3.jpg"
+>}}
 
 ## Story
 As an Iranian, I can't work with other countries every day. Some won't accept my nationality! 

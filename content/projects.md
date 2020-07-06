@@ -5,15 +5,11 @@ draft: false
 ---
 
 ## [Task Management](https://samadipour.github.io/posts/my-first-international-project/)
-<div class="cont">
-  <div class="gallery">
-    <ul id="lightgallery">
-      {{< list-image "/images/my-first-international-project/screenshot-1.jpg" >}}
-      {{< list-image "/images/my-first-international-project/screenshot-2.jpg" >}}      
-      {{< list-image "/images/my-first-international-project/screenshot-3.jpg" >}}      
-    </ul>
-  </div>
-</div> 
+{{< gallery
+    "/images/my-first-international-project/screenshot-1.jpg"
+    "/images/my-first-international-project/screenshot-2.jpg"
+    "/images/my-first-international-project/screenshot-3.jpg"
+>}}
 
 **Title**: Mobile Application Developer    
 **Time**: 24 Jun, 2020 - 30 Jun, 2020 (6 days)   
@@ -28,15 +24,11 @@ draft: false
 <br/>
 
 ## [Superz](https://superz.ir/)
-<div class="cont">
-  <div class="gallery">
-    <ul id="lightgallery2">
-      {{< list-image "/images/superz/screenshot-1.jpg" >}}
-      {{< list-image "/images/superz/screenshot-2.jpg" >}}
-      {{< list-image "/images/superz/screenshot-3.jpg" >}}
-    </ul>
-  </div>
-</div> 
+{{< gallery
+    "/images/superz/screenshot-1.jpg"
+    "/images/superz/screenshot-2.jpg"
+    "/images/superz/screenshot-3.jpg"
+>}}
 
 **Title**: Android Application Developer    
 **Time**: Oct, 2019 - Present    
@@ -58,15 +50,12 @@ draft: false
 <br/>
 
 ## [Recepshen](http://www.recepshen.ir/)
-<div class="cont">
-  <div class="gallery">
-    <ul id="lightgallery3">
-      {{< list-image "/images/recepshen/screenshot-1.jpg" >}}
-      {{< list-image "/images/recepshen/screenshot-2.jpg" >}}
-      {{< list-image "/images/recepshen/screenshot-3.jpg" >}}
-    </ul>
-  </div>
-</div> 
+{{< gallery
+    "/images/recepshen/screenshot-1.jpg"
+    "/images/recepshen/screenshot-2.jpg"
+    "/images/recepshen/screenshot-3.jpg"
+>}}
+
 
 **Title**: Mobile Application Developer    
 **Time**: Oct 2019 - Jun 2020 (11 mos)   
@@ -97,15 +86,11 @@ draft: false
 # Hobbies
 
 ## [Weather Man](https://github.com/SamadiPour/Weather-Man)
-<div class="cont">
-  <div class="gallery">
-    <ul id="lightgallery4">
-      {{< list-image "https://raw.githubusercontent.com/SamadiPour/Weather-Man/master/Screenshots/3.png" >}}
-      {{< list-image "https://raw.githubusercontent.com/SamadiPour/Weather-Man/master/Screenshots/5.png" >}}
-      {{< list-image "https://raw.githubusercontent.com/SamadiPour/Weather-Man/master/Screenshots/7.png" >}}
-    </ul>
-  </div>
-</div> 
+{{< gallery
+    "https://raw.githubusercontent.com/SamadiPour/Weather-Man/master/Screenshots/3.png"
+    "https://raw.githubusercontent.com/SamadiPour/Weather-Man/master/Screenshots/5.png"
+    "https://raw.githubusercontent.com/SamadiPour/Weather-Man/master/Screenshots/7.png"
+>}}
 
 **Time**: Jun 2019 - Aug 2019 (2 mos)   
 **Purpose**: Weather Forecast with Darksky api    
@@ -118,13 +103,7 @@ draft: false
 <br/>
 
 ## [SnakeFX](https://github.com/SamadiPour/SnakeFX)
-<div class="cont">
-  <div class="gallery">
-    <ul id="lightgallery5">
-      {{< single-image "https://raw.githubusercontent.com/SamadiPour/SnakeFX/master/screenshot.png" >}}
-    </ul>
-  </div>
-</div> 
+{{< single-image "https://raw.githubusercontent.com/SamadiPour/SnakeFX/master/screenshot.png" >}}
 
 **Purpose**: Advance Programming Course (Java) University project  
 **Technologies**:

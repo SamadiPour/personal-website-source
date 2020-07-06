@@ -276,3 +276,7 @@
     justify-content: right;
     /*text-align: right !important;*/
 }
+
+.highlight {
+    direction: ltr;
+}

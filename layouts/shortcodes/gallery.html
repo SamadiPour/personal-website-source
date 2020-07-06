@@ -1,0 +1,16 @@
+<div class="cont">
+    <div class="gallery">
+        <ul class="lightgallery">
+            {{ range .Params }}
+                <li data-src="{{ . }}" style="width: 90% !important;">
+                    <a href="">
+                        <img class="img-responsive" style="border-radius: 6px;" src="{{ . }}">
+                        <div class="gallery-poster">
+                            <img src="/img/zoom.png">
+                        </div>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>

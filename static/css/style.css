@@ -289,3 +289,14 @@ li > code {
 .breaker {
     word-break: break-all;
 }
+
+.post-content {
+    text-align: justify;
+}
+
+img.circle {
+    border-radius: 50%;
+    max-width: 32%;
+    margin: auto;
+    padding-top: 10px;
+}

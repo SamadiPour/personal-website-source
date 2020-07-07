@@ -3,6 +3,7 @@ draft = false
 title= "Customize Spotify With Spicetify | Persian"
 date= 2020-07-06T14:56:44+04:30
 description = "نحوه شخصی سازی و نصب تم برای اسپاتیفای"
+images = ["/images/customize-spotify-with-spicetify/1.png"]
 slug = "" 
 tags = ["Tutorial","Persian","Customization"]
 [ author ]

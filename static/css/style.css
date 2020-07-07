@@ -301,12 +301,15 @@ img.circle {
     padding-top: 10px;
 }
 
-.post-info {
+.post-info > * {
     display: flex;
     flex-wrap: wrap;
 }
 
-.post-info > * {
-    display: flex;
-    flex-wrap: wrap;
+.post-info > p {
+    margin: 0.8em 0.4em 0.8em 0
+}
+
+.post-info > p > span {
+    margin: 0 0 0.3em 0
 }

@@ -16,7 +16,8 @@ tags = ["Tutorial","Persian","Customization"]
 
 <div class="persian">
 میلیون ها نفر از برنامه فوق العاده Spotify برای گوش دادن به موسیقی به صورت آنلاین گوش میدهند. تا حالا شده به این فکر کنید که چی میشد اگر این برنامه کمی قشنگ تر میشد؟
-خب لازم نیست دیگه بیشتر فکر کنید.😅 تو این مطلب بهتون یاد میدم که چطوری اونو شخصی سازی کنید.
+خب لازم نیست دیگه بیشتر فکر کنید.😅   
+تو این مطلب بهتون یاد میدم که چطوری اونو شخصی سازی کنید.
 
 # نصب برنامه
 
@@ -72,11 +73,22 @@ spicetify restore
 آدرس این فایل رو می‌توانید به شکل زیر پیدا کنید:
 </div>
 
-**Windows**: `%userprofile%\.spicetify\config.ini`   
-**MacOS**: `~/spicetify_data/config.ini`   
+**Windows**:
+```
+%userprofile%\.spicetify\config.ini
+```   
+
+**MacOS**: 
+```
+~/spicetify_data/config.ini
+```   
+
 **Linux**: 
-- `$XDG_CONFIG_HOME/.config/spicetify/config.ini` 
-- `~/.config/spicetify/config.ini`   
+```
+$XDG_CONFIG_HOME/.config/spicetify/config.ini
+-OR-
+~/.config/spicetify/config.ini
+```
 
 <div class="persian">
 

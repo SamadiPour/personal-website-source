@@ -4,6 +4,44 @@ date: 2020-07-02T02:41:45+04:30
 draft: false
 ---
 
+## [Paris Yoga](https://apps.apple.com/gb/app/paris-yoga/id1520602935)
+
+**Title:** Mobile Application Developer    
+**Time:** 7 Aug, 2020 - Present✅   
+**Purpose:** Yoga practice at home.    
+**Technologies:**
+- Flutter
+- Firebase Cloud Messaging
+- Firebase Analytics
+- Cloud Firestore
+- RevenueCat (In-App purchase)
+
+<br/>
+
+------------------------
+
+<br/>
+
+## Paris Yoga Admin Panel
+
+**Title:** Mobile Application Developer    
+**Time:** 1 Sep, 2020 - Present✅   
+**Purpose:** Admin Panel for *Paris Yoga* app. Control firestore, storage, fcm, users with application.
+It makes everything easier to control. Add/Remove/Move/Edit everything with beautiful UI. It works on iOS, Android,
+Mac, Linux and Web. Fully responsive :)    
+**Technologies:**
+- Flutter
+- Firebase Cloud Messaging
+- Cloud Firestore
+- Firebase Storage
+
+<br/>
+
+------------------------
+
+<br/>
+
+
 ## [Task Management](https://samadipour.github.io/posts/my-first-international-project/)
 {{< gallery
     "/images/my-first-international-project/screenshot-1.jpg"
@@ -11,16 +49,19 @@ draft: false
     "/images/my-first-international-project/screenshot-3.jpg"
 >}}
 
-**Title**: Mobile Application Developer    
-**Time**: 24 Jun, 2020 - 30 Jun, 2020 (6 days)   
-**Purpose**: Employee could see and manage his/her tasks, update them, write comment or attach a file.    
-**Technologies**:
+**Title:** Mobile Application Developer    
+**Time:** 24 Jun, 2020 - 30 Jun, 2020 (6 days)   
+**Purpose:** Employee could see and manage his/her tasks, update them, write comment or attach a file.    
+**Technologies:**
 - Flutter
 - Firebase Cloud Messaging
 - Firebase Analytics
 - Firebase Crashlytics
 
 <br/>
+
+------------------------
+
 <br/>
 
 ## [Superz](https://superz.ir/)
@@ -31,7 +72,7 @@ draft: false
 >}}
 
 **Title**: Android Application Developer    
-**Time**: Oct, 2019 - Present    
+**Time**: Oct, 2019 - Present✅    
 **Purpose**: Search engine for supermarkets. Ability to Search and find best price for products.      
 **Technologies**:
 - Android Kotlin
@@ -46,8 +87,13 @@ draft: false
 - Slack
 - Jira
 
+
 <br/>
+
+------------------------
+
 <br/>
+
 
 ## [Recepshen](http://www.recepshen.ir/)
 {{< gallery
@@ -68,7 +114,11 @@ draft: false
 - Trello
 
 <br/>
+
+------------------------
+
 <br/>
+
 
 ## Nasir Task Management
 **Title**: Backend Developer    
@@ -81,7 +131,11 @@ draft: false
 - MariaDB
 
 <br/>
+
+------------------------
+
 <br/>
+
 
 # Hobbies
 
@@ -100,7 +154,11 @@ draft: false
 - Google Maps
 
 <br/>
+
+------------------------
+
 <br/>
+
 
 ## [SnakeFX](https://github.com/SamadiPour/SnakeFX)
 {{< single-image "https://raw.githubusercontent.com/SamadiPour/SnakeFX/master/screenshot.png" >}}
@@ -113,4 +171,18 @@ draft: false
 - AnimateFX
 
 <br/>
+
+------------------------
+
+<br/>
+
+## [Animations](https://rive.app/a/SamadiPour/files/recent/all)
+
+**Purpose**: These are some simple and fun animations that I have created for fun and projects.  
+**Those that I love**:
+- [Weather Flat Icons](https://rive.app/a/SamadiPour/files/flare/weather-flat-icons/preview) (14 Pieces)
+- [World Locations](https://rive.app/a/SamadiPour/files/flare/world-locations/preview) (3 Pieces)
+- [Recepshen Logo](https://rive.app/a/SamadiPour/files/flare/recepshen-stars/preview) (2 Pieces)
+- [Liquid Loader](https://rive.app/a/SamadiPour/files/flare/liquid-loader/preview)
+
 <br/>

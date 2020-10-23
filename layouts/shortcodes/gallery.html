@@ -1,6 +1,6 @@
 <div class="cont">
     <div class="gallery">
-        <ul class="lightgallery">
+        <ul class="lightgallery" style="display: grid; columns: 3; list-style: none; grid-auto-flow: row dense; grid-template-columns: repeat(3, 1fr); row-gap: 10px">
             {{ range .Params }}
                 <li data-src="{{ . }}" style="width: 90% !important;">
                     <a href="">

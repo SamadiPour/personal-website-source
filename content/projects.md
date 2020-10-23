@@ -5,10 +5,18 @@ draft: false
 ---
 
 ## [Paris Yoga](https://apps.apple.com/gb/app/paris-yoga/id1520602935)
+{{< gallery
+    "/images/paris-yoga/screenshot-1.png"
+    "/images/paris-yoga/screenshot-2.png"
+    "/images/paris-yoga/screenshot-3.png"
+    "/images/paris-yoga/screenshot-4.png"
+    "/images/paris-yoga/screenshot-5.png"
+    "/images/paris-yoga/screenshot-6.png"
+>}}
 
 **Title:** Mobile Application Developer    
 **Time:** 7 Aug, 2020 - Present✅   
-**Purpose:** Yoga practice at home.    
+**Purpose:** Practice yoga at home.    
 **Technologies:**
 - Flutter
 - Firebase Cloud Messaging

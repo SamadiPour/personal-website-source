@@ -6,16 +6,20 @@ theme = "hello-friend-ng"
 # after update
 # _main.scss
 #  &.circle {
-#    border-radius: 50%;
 #    max-width: 32%;
-#    margin: auto;
 #    padding-top: 10px;
 #  }
+
 # _single.scss
 #  &-content {
 #    margin-top: 30px;
 #    text-align: justify;
 #  }
+
+# _main.scss
+# .body {
+#   font-size: 1.15rem;
+# }
 
 
 PygmentsCodeFences = true

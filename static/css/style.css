@@ -274,7 +274,7 @@
     direction: rtl;
     letter-spacing: 0px;
     justify-content: right;
-    text-align: right;
+    text-align: justify;
 }
 
 .highlight {

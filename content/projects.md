@@ -2,10 +2,11 @@
 title: "Projects"
 date: 2020-07-02T02:41:45+04:30
 draft: false
+description: "All of my projects"
 ---
 
 ## [Paris Yoga](https://apps.apple.com/gb/app/paris-yoga/id1520602935)
-{{< gallery
+{{< limited_gallery
     "/images/paris-yoga/screenshot-1.png"
     "/images/paris-yoga/screenshot-2.png"
     "/images/paris-yoga/screenshot-3.png"

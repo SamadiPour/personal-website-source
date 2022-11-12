@@ -97,6 +97,7 @@ disableHugoGeneratorInject = false
   justifyContent = true  # Set "text-align: justify" ato .content.
 
   # Default theme "light" or "dark"
+  enableThemeToggle = true
   defaultTheme = "auto"
   themeColor = "#252627"
 
@@ -130,6 +131,10 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "twitter"
     url  = "https://twitter.com/samadipour/"
+
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/iAmSamadiPour/"
 
   [[params.social]]
     name = "email"
